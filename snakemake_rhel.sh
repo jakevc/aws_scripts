@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### Install snakemake on RHEL CentOS7+ Amazon EC2 bare ####
+
 # install EPEL repo packages and enable
 sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 mkdir -p install
